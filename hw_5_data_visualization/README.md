@@ -29,10 +29,6 @@
 
 ### Анализ и визуализация датасета Kaggle:
 
-* [main_2.ipynb](./main_2.ipynb)
-
-### Анализ датасета Kaggle:
-
 * [main.ipynb](./main.ipynb)
 
 
