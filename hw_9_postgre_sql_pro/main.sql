@@ -8,7 +8,7 @@ FROM
 WHERE 
     employee_count = (
         SELECT 
-            max(employee_count) 
+            MAX(employee_count) 
         FROM departments
     );
 

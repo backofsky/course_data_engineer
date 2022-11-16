@@ -41,6 +41,6 @@
 
 ### Docker:
 
-Подключение к Postgres в Docker-контейнере через DBeaver.
+Подключение к Postgres в Docker-контейнере через DBeaver
 
 * [docker-compose.yml](./docker-compose.yml)
