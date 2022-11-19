@@ -3,6 +3,8 @@
 -- 1. Создать таблицу с основной информацией о сотрудниках: ФИО, дата рождения, дата начала работы, должность, уровень сотрудника (jun, middle, senior, lead), уровень зарплаты, идентификатор отдела, наличие/отсутствие прав(True/False). 
 -- При этом в таблице обязательно должен быть уникальный номер для каждого сотрудника.
 
+-- Перед выполнением заданий нарисуем ER-модель. ERD указана в папке schema
+
 CREATE TABLE IF NOT EXISTS employees(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     full_name VARCHAR(255) NOT NULL,
@@ -23,7 +25,8 @@ CREATE TABLE IF NOT EXISTS employees(
 
 -- 2. Для будущих отчетов аналитики попросили вас создать еще одну таблицу с информацией по отделам – в таблице должен быть 
 -- идентификатор для каждого отдела, название отдела (например. Бухгалтерский или IT отдел), ФИО руководителя и количество сотрудников.
--- создаем сперва эту таблицу
+
+-- Создаем сперва эту таблицу
 
 CREATE TABLE IF NOT EXISTS departments(
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -172,7 +175,7 @@ VALUES
 SELECT 
     id,
     full_name, 
-    CURRENT_DATE - start_date AS experience
+    CURRENT_DATE - start_date AS work_experience
 FROM
     employees;
 
@@ -180,7 +183,7 @@ FROM
 SELECT 
     id, 
     full_name, 
-    CURRENT_DATE - start_date AS experience
+    CURRENT_DATE - start_date AS work_experience
 FROM
     employees
 LIMIT 

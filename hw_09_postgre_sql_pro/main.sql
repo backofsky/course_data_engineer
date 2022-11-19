@@ -41,13 +41,33 @@ WITH coeff AS(
   SELECT 
     employee_id,
     q1, 
-    CASE WHEN q1 = 'A' THEN 0.2 WHEN q1 = 'B' THEN 0.1 WHEN q1 = 'D' THEN -0.1 WHEN q1 = 'E' THEN -0.2 ELSE 0.0 END AS coeff1, 
+    CASE WHEN q1 = 'A' THEN 0.2 
+        WHEN q1 = 'B' THEN 0.1 
+        WHEN q1 = 'C' THEN 0.0 
+        WHEN q1 = 'D' THEN -0.1 
+        WHEN q1 = 'E' THEN -0.2 
+        ELSE 0.0 END AS coeff1, 
     q2, 
-    CASE WHEN q2 = 'A' THEN 0.2 WHEN q2 = 'B' THEN 0.1 WHEN q2 = 'D' THEN -0.1 WHEN q2 = 'E' THEN -0.2 ELSE 0.0 END AS coeff2, 
+    CASE WHEN q2 = 'A' THEN 0.2 
+        WHEN q2 = 'B' THEN 0.1 
+        WHEN q2 = 'C' THEN 0.0 
+        WHEN q2 = 'D' THEN -0.1 
+        WHEN q2 = 'E' THEN -0.2 
+        ELSE 0.0 END AS coeff2, 
     q3, 
-    CASE WHEN q3 = 'A' THEN 0.2 WHEN q3 = 'B' then 0.1 WHEN q3 = 'D' then -0.1 WHEN q3 = 'E' THEN -0.2 ELSE 0.0 END AS coeff3, 
+    CASE WHEN q3 = 'A' THEN 0.2 
+        WHEN q3 = 'B' THEN 0.1 
+        WHEN q2 = 'C' THEN 0.0 
+        WHEN q3 = 'D' then -0.1 
+        WHEN q3 = 'E' THEN -0.2 
+        ELSE 0.0 END AS coeff3, 
     q4, 
-    CASE WHEN q4 = 'A' THEN 0.2 WHEN q4 = 'B' THEN 0.1 WHEN q4 = 'D' THEN -0.1 WHEN q4 = 'E' THEN -0.2 ELSE 0.0 END AS coeff4 
+    CASE WHEN q4 = 'A' THEN 0.2 
+        WHEN q4 = 'B' THEN 0.1 
+        WHEN q4 = 'C' THEN 0.0 
+        WHEN q4 = 'D' THEN -0.1 
+        WHEN q4 = 'E' THEN -0.2 
+        ELSE 0.0 END AS coeff4 
   FROM 
     scores
 )
