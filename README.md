@@ -11,43 +11,49 @@
 
 * Введение:
 
-** Инженер данных. Цели, направления, задачи
-*** hw_01_introduction 
+* Инженер данных. Цели, направления, задачи
+- hw_01_introduction 
 
-** Основы синтаксиса и структур в Python
-*** hw_02_python_basics
+* Основы синтаксиса и структур в Python
+- hw_02_python_basics
 
-** Использование библиотек NumPy, SciPy
-*** hw_03_numpy_scipy
+* Использование библиотек NumPy, SciPy
+- hw_03_numpy_scipy
 
-** Обработка данных в Python. Библиотека Pandas
-*** hw_04_pandas
+* Обработка данных в Python. Библиотека Pandas
+- hw_04_pandas
 
-** Библиотеки Python для визуализации данных
-*** hw_05_data_visualization
+* Библиотеки Python для визуализации данных
+- hw_05_data_visualization
 
-** Синтаксис языка программирования С++
-*** hw_06_c++
+* Синтаксис языка программирования С++
+- hw_06_c++
 
 * Базы данных:
 
-** Коллективная работа: GIT, CI/CD
-*** hw_07_git
+* Коллективная работа: GIT, CI/CD
+- hw_07_git
 
-** Программирование Scala
-*** hw_08_scala_light
+* Программирование Scala
+- hw_08_scala_light
 
-** Реляционные базы данных: PostgreSQL
-*** hw_09_postgre_sql_light
-*** hw_09_postgre_sql_light
+* Реляционные базы данных: PostgreSQL
+- hw_09_postgre_sql_light
+- hw_09_postgre_sql_light
 
-** Запросы и практика: SQL, join, union и др.
-*** hw_10_sql_light
+* Запросы и практика: SQL, join, union и др.
+- hw_10_sql_light
 
 * Обработка данных:
 
-** Распределенные файловые системы: HDFS
-*** hw_11_hdfs
+* Распределенные файловые системы: HDFS
+- hw_11_hdfs
+
+* Практика Spark
+- hw_12_spark_light
+
+* Бонус-модуль "Статистика"
+- hw_bonus_analytical_statistical_methods
 
 
 ## Задание 7
