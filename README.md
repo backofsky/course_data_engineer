@@ -9,6 +9,7 @@
 
 Файлы с выполненными заданиями лежат в соответствующих папках.
 
+
 * Введение:
 
 * Инженер данных. Цели, направления, задачи
@@ -29,6 +30,7 @@
 * Синтаксис языка программирования С++
 - hw_06_c++
 
+
 * Базы данных:
 
 * Коллективная работа: GIT, CI/CD
@@ -39,10 +41,11 @@
 
 * Реляционные базы данных: PostgreSQL
 - hw_09_postgre_sql_light
-- hw_09_postgre_sql_light
+- hw_09_postgre_sql_pro
 
 * Запросы и практика: SQL, join, union и др.
 - hw_10_sql_light
+
 
 * Обработка данных:
 
@@ -51,6 +54,28 @@
 
 * Практика Spark
 - hw_12_spark_light
+
+* Практика Airflow
+- hw_13_airflow
+
+
+* Машинное обучение:
+
+* Машинное обучение на больших данных:
+- hw_14_machine_learning
+
+* Машинное обучение и предобработка данных:
+- hw_15_machine_learning_and_data_preprocessing
+
+
+* Искусственный интеллект:
+
+* Введение в нейронные сети
+- hw_16_introduction_to_neural_networks
+
+* Работа с изображениями в ИИ
+- hw_17_working_with_images_in_AI
+
 
 * Бонус-модуль "Статистика"
 - hw_bonus_analytical_statistical_methods
