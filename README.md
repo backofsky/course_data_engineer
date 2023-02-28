@@ -53,7 +53,7 @@
 - hw_11_hdfs
 
 * Практика Spark
-- hw_12_spark_light
+- hw_12_spark
 
 * Практика Airflow
 - hw_13_airflow
